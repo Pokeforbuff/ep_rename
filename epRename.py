@@ -27,7 +27,7 @@ def browse():
   dirText.insert(0,currentDir)
 browse=Button(parent, text ="Browse",command=browse,width=7)
 browse.grid(row=0, column=4,columnspan=2,padx=5, pady=10)
-dirText.insert(0,"C:/Users/Sanidhya")
+dirText.insert(0,"C:/Users/")
 info=Label(parent, text="Current directory:",justify="right")
 info.grid(row=0, column=0,padx=3, pady=10)
 def renameFiles(showName):
