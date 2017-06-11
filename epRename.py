@@ -8,7 +8,7 @@ import tkFileDialog
 parent = Tk()
 parent.minsize(width=500, height=300)
 parent.resizable(width=False, height=False)
-currentDir="C:/Users/Sanidhya"
+currentDir="C:/Users/"
 list = Listbox(parent,selectmode=BROWSE,width=70,height=20,yscrollcommand=Scrollbar(parent, orient=VERTICAL).set)
 list.grid(row=1, column=0, columnspan=5, rowspan=3,padx=2, pady=2)
 dirText=Entry(parent,width=50)
